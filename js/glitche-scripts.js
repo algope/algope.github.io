@@ -1,8 +1,3 @@
-/**
-*   Glitche (HTML)
-*   Copyright © Glitche by beshleyua. All Rights Reserved.
-**/
-
 $(function () {
 	'use strict';
 	
