@@ -38,8 +38,8 @@ body {
 	font-family: 'Roboto Mono';
 	font-size: 13px;
 	color: #363636;
-	background: #ffffff;
-	/*background: #f26b38;*/
+	/*background: #ffffff;*/
+	background: #f26b38;
 	letter-spacing: 0;
 	font-weight: 400;
 }
@@ -86,8 +86,8 @@ body.loaded .section {
 .container .line {
 	content: '';
 	position: fixed;
-	background: #ffffff;
-	/*background: #f26b38;*/
+	/*background: #ffffff;*/
+	background: #f26b38;
 	z-index: 105;
 }
 
