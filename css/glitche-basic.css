@@ -39,7 +39,7 @@ body {
 	font-size: 13px;
 	color: #363636;
 	/*background: #ffffff;*/
-	background: #f26b38;
+	background: #000;
 	letter-spacing: 0;
 	font-weight: 400;
 }
@@ -87,7 +87,7 @@ body.loaded .section {
 	content: '';
 	position: fixed;
 	/*background: #ffffff;*/
-	background: #f26b38;
+	background: #000;
 	z-index: 105;
 }
 
@@ -254,7 +254,7 @@ strong {
 
 /* 5. Links */
 a {
-	color: #363636;
+	color: #6a6a6a;
 	text-decoration: none;
 	opacity: 1;
 	outline: none;
@@ -262,7 +262,7 @@ a {
 
 a:hover {
 	text-decoration: none;
-	color: #f26b38;
+	color: #000;
 }
 
 /* 6. Buttons */
@@ -290,15 +290,15 @@ a.btn,
 a.btn.fill,
 .btn.fill {
 	color: #ffffff;
-	background: #f26b38;
-	border: 1px solid #f26b38;
+	background: #000;
+	border: 1px solid #000;
 }
 
 a.btn:hover,
 .btn:hover {
 	color: #ffffff;
-	background: #f26b38;
-	border: 1px solid #f26b38;
+	background: #000;
+	border: 1px solid #000;
 }
 
 /* 7. Preloader */
@@ -313,13 +313,13 @@ a.btn:hover,
 }
 
 .preloader .load {
-	color: #f26b38;
+	color: #000;
 	font-size: 12px;
 }
 
 .preloader .typed-load,
 .preloader .typed-cursor {
-	color: #f26b38;
+	color: #000;
 	font-size: 12px;
 }
 
@@ -355,7 +355,7 @@ input:focus,
 textarea:focus,
 button:focus {
 	color: #141414;
-	border-bottom: 1px solid #f26b38;
+	border-bottom: 1px solid #000;
 }
 
 textarea {
@@ -375,7 +375,7 @@ button {
 }
 
 button:hover {
-	border-bottom: 1px solid #f26b38;
+	border-bottom: 1px solid #000;
 }
 
 label,
