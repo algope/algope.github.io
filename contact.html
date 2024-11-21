@@ -28,23 +28,24 @@
     <link rel="stylesheet" href="css/glitche-layout.css" />
     <link rel="stylesheet" href="css/magnific-popup.css" />
 
-    <!--[if lt IE 9]>
-      <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
     <!-- Favicons -->
     <link rel="shortcut icon" href="images/favicons/favicon.ico" />
-    <link rel="apple-touch-icon" href="images/favicons/apple-touch-icon.png" />
+    <link
+      rel="apple-touch-icon"
+      href="images/favicons/apple-touch-icon.png"
+      loading="lazy"
+    />
     <link
       rel="apple-touch-icon"
       sizes="72x72"
       href="images/favicons/apple-touch-icon-72x72.png"
+      loading="lazy"
     />
     <link
       rel="apple-touch-icon"
       sizes="114x114"
       href="images/favicons/apple-touch-icon-114x114.png"
+      loading="lazy"
     />
   </head>
 
@@ -71,8 +72,6 @@
             <ul>
               <li><a href="index.html" class="lnk">Home</a></li>
               <li><a href="about.html" class="lnk">About</a></li>
-              <!--<li><a href="portfolio.html" class="lnk">Portfolio</a></li>-->
-              <!--<li><a href="blog.html" class="lnk">Blog</a></li>-->
               <li class="active">
                 <a href="contact.html" class="lnk">Contact</a>
               </li>
@@ -118,10 +117,6 @@
                 <div class="icon">
                   <ion-icon name="paper-plane-outline"></ion-icon>
                 </div>
-              <div class="service-item">
-                <div class="icon">
-                  <ion-icon name="mail-outline"></ion-icon>
-                </div>
                 <div class="name">Email</div>
                 <p>
                   <a href="mailto:hi@algope.com">hi ~at~ dansmachina.com</a>
@@ -129,11 +124,13 @@
               </div>
               <div class="service-item">
                 <div class="icon">
-                  <ion-icon name="logo-twitter"></ion-icon>
+                  <ion-icon name="egg-outline"></ion-icon>
                 </div>
                 <div class="name">Bluesky</div>
                 <p>
-                  <a href="https://bsky.app/profile/dansmachina.com" target="_blank"
+                  <a
+                    href="https://bsky.app/profile/dansmachina.com"
+                    target="_blank"
                     >@dansmachina.com</a
                   >
                 </p>
@@ -157,13 +154,10 @@
             ><ion-icon name="logo-linkedin"></ion-icon
           ></a>
           <a target="_blank" href="https://bsky.app/profile/dansmachina.com"
-            ><ion-icon name="logo-bluesky"></ion-icon
+            ><ion-icon name="egg-outline"></ion-icon
           ></a>
           <a target="_blank" href="https://github.com/dansmachina"
             ><ion-icon name="logo-github"></ion-icon
-          ></a>
-          <a target="_blank" href="https://unsplash.com/@algope"
-            ><ion-icon name="camera-outline"></ion-icon
           ></a>
         </div>
         <div class="clr"></div>
@@ -177,23 +171,21 @@
     </div>
 
     <!-- jQuery Scripts -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery.validate.js"></script>
-    <script src="js/typed.js"></script>
-    <script src="js/magnific-popup.js"></script>
-    <script src="js/masonry.pkgd.js"></script>
-    <script src="js/imagesloaded.pkgd.js"></script>
-    <script src="js/masonry-filter.js"></script>
-
-    <!-- Main Scripts -->
-    <script src="js/glitche-scripts.js"></script>
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jquery.validate.js" defer></script>
+    <script src="js/typed.js" defer></script>
+    <script src="js/magnific-popup.js" defer></script>
+    <script src="js/masonry.pkgd.js" defer></script>
+    <script src="js/imagesloaded.pkgd.js" defer></script>
+    <script src="js/masonry-filter.js" defer></script>
+    <script src="js/glitche-scripts.js" defer></script>
     <script
       type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
     ></script>
     <script
       nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
   </body>
 </html>
